@@ -3,8 +3,8 @@ import psycopg2
 from psycopg2.extras import execute_batch
 import logging
 
-from app.services.ewma import compute_ewma_with_state
-from app.core.settings import get_db_connection
+from src.services.ewma import compute_ewma_with_state
+from src.core.settings import get_db_connection
 import uuid
 from datetime import datetime
 

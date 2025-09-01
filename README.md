@@ -61,7 +61,7 @@ DATABASE_URL=postgresql://usuario:senha@host:porta/database
 ### 4. Execute o servidor
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 A API estará disponível em: [http://localhost:8000](http://localhost:8000)

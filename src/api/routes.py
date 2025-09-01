@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.services.training import run_training_pipeline
+from src.services.training import run_training_pipeline
 
 router = APIRouter()
 

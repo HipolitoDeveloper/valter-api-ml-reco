@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api import routes
+from src.api import routes
 
 app = FastAPI(title="Valter Reco API")
 
